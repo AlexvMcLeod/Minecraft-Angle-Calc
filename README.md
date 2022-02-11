@@ -1,2 +1,2 @@
 # Minecraft-Angle-Calc
-Just a simple calculator for placing blocks at a specific angle
+Just a simple calculator for placing blocks at a specific angle. For example if I wanted to generate 20 meters of blocks at a 45 degree angle, the program will generate the number of blocks I need to place for each y-level. Previously minecraft builders have had to rely on charts, but they are cumbersome to make and specific to length/angle. Now every lenght and angle is able to be mapped in Minecraft.
