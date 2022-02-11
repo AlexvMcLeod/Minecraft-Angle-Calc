@@ -2,8 +2,8 @@ import math
 
 
 #Set the angle and length to what you want
-LENGTH = 20
-ANGLE = 45
+LENGTH = 100
+ANGLE = 30
 
 #returns a coordinate list of blocks in the angle/length requested
 def generate_Blocklist():
@@ -28,11 +28,11 @@ def generate_Placement_list(blocklist):
         blockcounter = 0
         for i in blocklist:
             
-            if(i[0] == blocklevel):
+            if(i[1] == blocklevel):
                 blockcounter +=1
             else:
                 placementlist.append(blockcounter) 
-                blocklevel = i[0]
+                blocklevel = i[1]
                 blockcounter = 1
         print(placementlist)
         print(len(placementlist))
